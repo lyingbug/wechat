@@ -17,6 +17,7 @@ const (
 	uriCompelBind   = "https://api.weixin.qq.com/device/compel_bind"
 	uriCompelUnbind = "https://api.weixin.qq.com/device/compel_unbind"
 	uriState        = "https://api.weixin.qq.com/device/get_stat"
+	uriTransMsg     = "https://api.weixin.qq.com/device/transmsg"
 )
 
 //Device struct
