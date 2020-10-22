@@ -3,15 +3,15 @@ package wechat
 import (
 	"os"
 
-	"github.com/silenceper/wechat/v2/cache"
-	"github.com/silenceper/wechat/v2/miniprogram"
-	miniConfig "github.com/silenceper/wechat/v2/miniprogram/config"
-	"github.com/silenceper/wechat/v2/officialaccount"
-	offConfig "github.com/silenceper/wechat/v2/officialaccount/config"
-	"github.com/silenceper/wechat/v2/openplatform"
-	openConfig "github.com/silenceper/wechat/v2/openplatform/config"
-	"github.com/silenceper/wechat/v2/pay"
-	payConfig "github.com/silenceper/wechat/v2/pay/config"
+	"github.com/lyingbug/wechat/v2/cache"
+	"github.com/lyingbug/wechat/v2/miniprogram"
+	miniConfig "github.com/lyingbug/wechat/v2/miniprogram/config"
+	"github.com/lyingbug/wechat/v2/officialaccount"
+	offConfig "github.com/lyingbug/wechat/v2/officialaccount/config"
+	"github.com/lyingbug/wechat/v2/openplatform"
+	openConfig "github.com/lyingbug/wechat/v2/openplatform/config"
+	"github.com/lyingbug/wechat/v2/pay"
+	payConfig "github.com/lyingbug/wechat/v2/pay/config"
 	log "github.com/sirupsen/logrus"
 )
 

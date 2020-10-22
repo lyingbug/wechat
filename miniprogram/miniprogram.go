@@ -1,16 +1,16 @@
 package miniprogram
 
 import (
-	"github.com/silenceper/wechat/v2/credential"
-	"github.com/silenceper/wechat/v2/miniprogram/analysis"
-	"github.com/silenceper/wechat/v2/miniprogram/auth"
-	"github.com/silenceper/wechat/v2/miniprogram/config"
-	"github.com/silenceper/wechat/v2/miniprogram/context"
-	"github.com/silenceper/wechat/v2/miniprogram/encryptor"
-	"github.com/silenceper/wechat/v2/miniprogram/message"
-	"github.com/silenceper/wechat/v2/miniprogram/qrcode"
-	"github.com/silenceper/wechat/v2/miniprogram/subscribe"
-	"github.com/silenceper/wechat/v2/miniprogram/tcb"
+	"github.com/lyingbug/wechat/v2/credential"
+	"github.com/lyingbug/wechat/v2/miniprogram/analysis"
+	"github.com/lyingbug/wechat/v2/miniprogram/auth"
+	"github.com/lyingbug/wechat/v2/miniprogram/config"
+	"github.com/lyingbug/wechat/v2/miniprogram/context"
+	"github.com/lyingbug/wechat/v2/miniprogram/encryptor"
+	"github.com/lyingbug/wechat/v2/miniprogram/message"
+	"github.com/lyingbug/wechat/v2/miniprogram/qrcode"
+	"github.com/lyingbug/wechat/v2/miniprogram/subscribe"
+	"github.com/lyingbug/wechat/v2/miniprogram/tcb"
 )
 
 //MiniProgram 微信小程序相关API

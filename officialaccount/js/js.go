@@ -3,9 +3,9 @@ package js
 import (
 	"fmt"
 
-	"github.com/silenceper/wechat/v2/credential"
-	"github.com/silenceper/wechat/v2/officialaccount/context"
-	"github.com/silenceper/wechat/v2/util"
+	"github.com/lyingbug/wechat/v2/credential"
+	"github.com/lyingbug/wechat/v2/officialaccount/context"
+	"github.com/lyingbug/wechat/v2/util"
 )
 
 // Js struct
