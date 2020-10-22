@@ -1,6 +1,7 @@
 package server
 
 import (
+	"encoding/json"
 	"encoding/xml"
 	"errors"
 	"fmt"
@@ -162,7 +163,15 @@ func (srv *Server) getMessage() (interface{}, error) {
 
 func (srv *Server) parseRequestMessage(rawXMLMsgBytes []byte) (msg message.MixMessage, err error) {
 	msg = message.MixMessage{}
-	err = xml.Unmarshal(rawXMLMsgBytes, &msg)
+	if len(rawXMLMsgBytes) == 0 {
+		err = fmt.Errorf("msg is nil")
+		return
+	}
+	if rawXMLMsgBytes[0] == '<' {
+		err = xml.Unmarshal(rawXMLMsgBytes, &msg)
+	} else {
+		err = json.Unmarshal(rawXMLMsgBytes, &msg)
+	}
 	return
 }
 
