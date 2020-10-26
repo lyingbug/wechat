@@ -8,10 +8,10 @@ import (
 
 //MsgDevice 设备消息响应
 type MsgDevice struct {
-	DeviceType string
-	DeviceID   string
-	SessionID  string
-	OpenID     string
+	DeviceType string `json:"device_type"`
+	DeviceID   string `json:"device_id"`
+	SessionID  string `json:"session_id"`
+	OpenID     string `json:"user"`
 }
 
 // ReqTransMsg 主动发消息给设备
