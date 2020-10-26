@@ -203,7 +203,7 @@ type CommonToken struct {
 	ToUserName   CDATA    `xml:"ToUserName"`
 	FromUserName CDATA    `xml:"FromUserName"`
 	CreateTime   int64    `xml:"CreateTime"`
-	MsgType      MsgType  `xml:"MsgType"`
+	MsgType      MsgType  `xml:"MsgType" json:"msg_type"`
 }
 
 //SetToUserName set ToUserName
